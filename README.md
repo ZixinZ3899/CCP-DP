@@ -167,6 +167,8 @@ Reproduction scripts are organized under `experiments/`:
 
 ## Reproducibility notes
 
+The clean-clone full-dataset validation record is available in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
+
 - Run commands from the repository root unless stated otherwise.
 - Active dataset and executable paths are repository-relative.
 - Randomized experiments record their seeds explicitly.
