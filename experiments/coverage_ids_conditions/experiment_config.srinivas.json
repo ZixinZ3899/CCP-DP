@@ -1,0 +1,64 @@
+{
+    "jobs": 32,
+    "gnu_time": "/usr/bin/time",
+    "algorithms": [
+        {
+            "name": "CCP-DP",
+            "slug": "ccpdp",
+            "enabled": true,
+            "capture_stdout": false,
+            "command": [
+                "{repo_root}/build/ccpdp",
+                "-i",
+                "{clusters}",
+                "-l",
+                "{length}",
+                "-s",
+                "===============================",
+                "-o",
+                "{output}",
+                "--diag",
+                "{diag}",
+                "--mode",
+                "auto",
+                "--jobs",
+                "{jobs}"
+            ]
+        },
+        {
+            "name": "BBS",
+            "slug": "bbs",
+            "enabled": true,
+            "capture_stdout": true,
+            "command": [
+                "{repo_root}/build/baselines/bbs-target/release/bbs",
+                "{clusters}",
+                "-l",
+                "{length}",
+                "-s",
+                "====",
+                "-t",
+                "{jobs}"
+            ]
+        },
+        {
+            "name": "CPL",
+            "slug": "cpl",
+            "enabled": true,
+            "capture_stdout": false,
+            "command": [
+                "{repo_root}/build/baselines/cpl32",
+                "-i",
+                "{clusters}",
+                "-l",
+                "{length}",
+                "-s",
+                "====",
+                "-o",
+                "{output}",
+                "-t",
+                "{jobs}"
+            ]
+        }
+    ]
+}

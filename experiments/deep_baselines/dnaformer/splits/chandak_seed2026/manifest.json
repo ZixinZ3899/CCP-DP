@@ -1,0 +1,32 @@
+{
+  "dataset": "chandak",
+  "seed": 2026,
+  "split": "cluster-level 80/10/10",
+  "target_len": 108,
+  "input_len": 132,
+  "source_clusters": "data/processed/chandak_108/Clusters.txt",
+  "source_centers": "data/processed/chandak_108/Centers.txt",
+  "original_clusters": 1466,
+  "eligible_clusters": 1465,
+  "excluded_coverage_lt_2": [
+    974
+  ],
+  "split_counts": {
+    "train": 1172,
+    "val": 146,
+    "test": 147
+  },
+  "duplicate_centers_across_splits": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "sha256": {
+    "train.txt": "b4448fcb64c85326322b35c7d1feea880e2e4953dfca0c4287083ec310a48658",
+    "train_indices.txt": "8e97cb60dbb320bb1448bdefeb0a19ec2bb76ddab094abfd765ee34330672175",
+    "val.txt": "1e9cf50664cd598c5914f9ab959ce0dc81638a7288a3126b60106238f09431a2",
+    "val_indices.txt": "c648f4ad454b25ba5781fa591c06fa871b2189d676f7a42bdabe137c0a438080",
+    "test.txt": "15bfe77f1e75f31856789d44e0cf6ab1845fd434dcaa8e973caa5933f1467e2e",
+    "test_indices.txt": "f2fbe429ee49a251c0d36b4b45190ea7562b3ee8b393fec187b3385d9a1b8582"
+  }
+}

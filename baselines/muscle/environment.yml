@@ -1,0 +1,9 @@
+name: ccpdp-muscle
+
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+
+dependencies:
+  - muscle=5.3=h9948957_3

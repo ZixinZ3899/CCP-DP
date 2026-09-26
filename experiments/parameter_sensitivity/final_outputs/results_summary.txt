@@ -1,0 +1,14 @@
+AUTOMATIC NUMERICAL SUMMARY
+
+Largest observed absolute success change: 0.614 pp (Chandak-108, Cross-weight scale).
+
+Maximum absolute success change by parameter:
+- Cross-weight scale: 0.614 pp
+- Coverage switch: 0.477 pp
+- Minimum route fraction: 0.080 pp
+- Reuse threshold: 0.000 pp
+- Phase-load thresholds: 0.000 pp
+- Phase band: 0.000 pp
+
+Suggested manuscript statement:
+Across the tested ranges, the largest absolute change in exact reconstruction was 0.61 percentage points. The coverage switch and cross-cluster weight produced the most visible accuracy variation, whereas parameters whose tested values did not alter the active routing regime yielded identical reconstructions. Runtime and the fraction of structured decoding should be interpreted jointly with accuracy when selecting the routing floor.

@@ -1,0 +1,6 @@
+predictions.txt
+Sequences: 9972 (exact: 9181)
+Hamming Distance:  2.206578419575
+Edit Distance:  0.167970316887
+Reconstruction Rate:  0.998472997119
+Success Rate:  0.920677898115

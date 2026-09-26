@@ -1,0 +1,7 @@
+id,label,joint_trellis,cross_loo_score,blind_ids_likelihood,sparse_gate
+guide_only,Guide only,0,0,0,0
+without_cross_loo,Full w/o Cross-LOO score,1,0,1,1
+without_blind_ids,Full w/o blind IDS likelihood,1,1,0,1
+decode_all,Full with decoding of all clusters,1,1,1,0
+local_trellis_only,Local trellis only,1,0,0,0
+full,Full,1,1,1,1

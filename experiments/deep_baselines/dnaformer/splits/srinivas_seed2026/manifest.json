@@ -1,0 +1,43 @@
+{
+  "dataset": "srinivas",
+  "seed": 2026,
+  "split": "cluster-level 80/10/10",
+  "target_len": 110,
+  "input_len": 132,
+  "source_clusters": "data/processed/srinivas_110/Clusters.txt",
+  "source_centers": "data/processed/srinivas_110/Centers.txt",
+  "original_clusters": 9984,
+  "eligible_clusters": 9972,
+  "excluded_coverage_lt_2": [
+    390,
+    2081,
+    3857,
+    4493,
+    6231,
+    6683,
+    8873,
+    9619,
+    9713,
+    9747,
+    9785,
+    9815
+  ],
+  "split_counts": {
+    "train": 7977,
+    "val": 997,
+    "test": 998
+  },
+  "duplicate_centers_across_splits": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "sha256": {
+    "train.txt": "74b0623866411abf54f474dc915345c63874fa9e03976d20fe8a34b96128416d",
+    "train_indices.txt": "a1b7a55076eedc14d82d12fc84222a4eb784eae4509a14fc392556a67369b1d6",
+    "val.txt": "6aa70d65011d8aef2988442edd599d7f8f354475f0f873cec56088fa2e2df4c6",
+    "val_indices.txt": "5f7e07855f631966cde62dd215c17a5290bf8eb4d4ffce62362cfd28e71ee67c",
+    "test.txt": "91c673b0192b7901845597088fc87341f93daec7da251317345318f0df000781",
+    "test_indices.txt": "f61610cc75a75f3dd41e4c9565740abd157969a15c43c1832f31df1ec49a7f6e"
+  }
+}

@@ -1,0 +1,61 @@
+Original clusters: 1466
+Supported clusters: 1465
+Unsupported single-read clusters: 1
+Clusters reduced further to fit context: 0
+FlashAttention available (will be used during training and inference with KV cache)
+Model parameters: 38,994,432
+Device: cuda:0 (NVIDIA GeForce RTX 3090)
+TReconLM inference:   0%|          | 0/46 [00:00<?, ?it/s]TReconLM inference:   2%|▏         | 1/46 [00:02<01:56,  2.59s/it]TReconLM inference:   4%|▍         | 2/46 [00:03<01:09,  1.59s/it]TReconLM inference:   7%|▋         | 3/46 [00:04<00:54,  1.27s/it]TReconLM inference:   9%|▊         | 4/46 [00:05<00:46,  1.11s/it]TReconLM inference:  11%|█         | 5/46 [00:06<00:42,  1.03s/it]TReconLM inference:  13%|█▎        | 6/46 [00:07<00:39,  1.02it/s]TReconLM inference:  15%|█▌        | 7/46 [00:07<00:37,  1.05it/s]TReconLM inference:  17%|█▋        | 8/46 [00:08<00:35,  1.07it/s]TReconLM inference:  20%|█▉        | 9/46 [00:09<00:34,  1.08it/s]TReconLM inference:  22%|██▏       | 10/46 [00:10<00:32,  1.09it/s]TReconLM inference:  24%|██▍       | 11/46 [00:11<00:31,  1.10it/s]TReconLM inference:  26%|██▌       | 12/46 [00:12<00:30,  1.10it/s]TReconLM inference:  28%|██▊       | 13/46 [00:13<00:29,  1.10it/s]TReconLM inference:  30%|███       | 14/46 [00:14<00:28,  1.10it/s]TReconLM inference:  33%|███▎      | 15/46 [00:15<00:28,  1.11it/s]TReconLM inference:  35%|███▍      | 16/46 [00:15<00:26,  1.11it/s]TReconLM inference:  37%|███▋      | 17/46 [00:16<00:26,  1.11it/s]TReconLM inference:  39%|███▉      | 18/46 [00:17<00:26,  1.05it/s]TReconLM inference:  41%|████▏     | 19/46 [00:19<00:26,  1.02it/s]TReconLM inference:  43%|████▎     | 20/46 [00:20<00:25,  1.01it/s]TReconLM inference:  46%|████▌     | 21/46 [00:21<00:25,  1.01s/it]TReconLM inference:  48%|████▊     | 22/46 [00:22<00:24,  1.01s/it]TReconLM inference:  50%|█████     | 23/46 [00:23<00:23,  1.02s/it]TReconLM inference:  52%|█████▏    | 24/46 [00:24<00:22,  1.02s/it]TReconLM inference:  54%|█████▍    | 25/46 [00:25<00:21,  1.03s/it]TReconLM inference:  57%|█████▋    | 26/46 [00:26<00:20,  1.03s/it]TReconLM inference:  59%|█████▊    | 27/46 [00:27<00:19,  1.03s/it]TReconLM inference:  61%|██████    | 28/46 [00:28<00:18,  1.03s/it]TReconLM inference:  63%|██████▎   | 29/46 [00:29<00:17,  1.03s/it]TReconLM inference:  65%|██████▌   | 30/46 [00:30<00:16,  1.03s/it]TReconLM inference:  67%|██████▋   | 31/46 [00:31<00:15,  1.03s/it]TReconLM inference:  70%|██████▉   | 32/46 [00:32<00:14,  1.03s/it]TReconLM inference:  72%|███████▏  | 33/46 [00:33<00:13,  1.03s/it]TReconLM inference:  74%|███████▍  | 34/46 [00:34<00:12,  1.03s/it]TReconLM inference:  76%|███████▌  | 35/46 [00:35<00:11,  1.03s/it]TReconLM inference:  78%|███████▊  | 36/46 [00:36<00:10,  1.03s/it]TReconLM inference:  80%|████████  | 37/46 [00:37<00:09,  1.03s/it]TReconLM inference:  83%|████████▎ | 38/46 [00:38<00:08,  1.03s/it]TReconLM inference:  85%|████████▍ | 39/46 [00:39<00:07,  1.04s/it]TReconLM inference:  87%|████████▋ | 40/46 [00:40<00:06,  1.04s/it]TReconLM inference:  89%|████████▉ | 41/46 [00:41<00:05,  1.04s/it]TReconLM inference:  91%|█████████▏| 42/46 [00:42<00:04,  1.04s/it]TReconLM inference:  93%|█████████▎| 43/46 [00:43<00:03,  1.04s/it]TReconLM inference:  96%|█████████▌| 44/46 [00:44<00:02,  1.04s/it]TReconLM inference:  98%|█████████▊| 45/46 [00:45<00:01,  1.04s/it]TReconLM inference: 100%|██████████| 46/46 [00:46<00:00,  1.04s/it]TReconLM inference: 100%|██████████| 46/46 [00:46<00:00,  1.02s/it]
+
+========================================================================
+{
+  "checkpoint": "/mnt/st_data/zhangzixin/bbs-test-master/tools/TReconLM/models/model_var_len_50_120.pt",
+  "target_length": 108,
+  "seed": 2026,
+  "max_reads": 10,
+  "batch_size": 32,
+  "total_original_clusters": 1466,
+  "supported_clusters": 1465,
+  "unsupported_single_read_clusters": 1,
+  "context_reduced_clusters": 0,
+  "success_count": 706,
+  "success_rate_supported": 0.48191126279863483,
+  "success_rate_full_conservative": 0.4815825375170532,
+  "total_edit_distance_supported": 2026,
+  "average_edit_distance_supported": 1.3829351535836178,
+  "average_normalized_edit_distance_supported": 0.012804955125774238,
+  "average_hamming_distance_supported": 23.804778156996587,
+  "inference_seconds": 46.961988016963005,
+  "clusters_per_second": 31.195442566673957,
+  "peak_gpu_allocated_mib": 2404.99462890625,
+  "peak_gpu_reserved_mib": 12950.0,
+  "model_parameters": 38994432,
+  "process_max_rss_mib": 4391.35546875
+}
+========================================================================
+Predictions: results/treconlm_chandak_108/predictions.txt
+Selected centers: results/treconlm_chandak_108/selected_centers.txt
+Selected clusters: results/treconlm_chandak_108/selected_clusters.txt
+	Command being timed: "env CUDA_VISIBLE_DEVICES=0 OMP_NUM_THREADS=8 python run_treconlm_custom.py --clusters /mnt/st_data/zhangzixin/bbs-test-master/clustered-nanopore-reads-dataset/bar_lev_chandak_bbs_benchmark/Chandak_et_al/Clusters.txt --centers /mnt/st_data/zhangzixin/bbs-test-master/clustered-nanopore-reads-dataset/bar_lev_chandak_bbs_benchmark/Chandak_et_al/Centers.txt --checkpoint models/model_var_len_50_120.pt --target-len 108 --block-size 2400 --max-reads 10 --seed 2026 --batch-size 32 --output-dir results/treconlm_chandak_108"
+	User time (seconds): 57.68
+	System time (seconds): 4.05
+	Percent of CPU this job got: 109%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:56.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4503412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 1348136
+	Voluntary context switches: 874
+	Involuntary context switches: 6495
+	Swaps: 0
+	File system inputs: 1008
+	File system outputs: 4560
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

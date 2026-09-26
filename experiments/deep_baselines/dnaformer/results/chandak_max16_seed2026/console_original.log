@@ -1,0 +1,106 @@
+Device: cuda
+GPU: NVIDIA GeForce RTX 3090
+Train/val/test: 1172 146 146
+Batch size: 8
+Accumulation steps: 8
+Effective batch size: 64
+Checkpoint epoch: 14
+Transferred tensors: 262
+New tensors: 12
+  new: embedding.linear_block.fc_1.bias (108,)
+  new: embedding.linear_block.fc_1.weight (108, 132)
+  new: embedding.linear_block.fc_2.bias (108,)
+  new: embedding.linear_block.fc_2.weight (108, 108)
+  new: embedding.linear_block.fc_3.bias (108,)
+  new: embedding.linear_block.fc_3.weight (108, 108)
+  new: embedding.linear_block.norm_1.bias (108,)
+  new: embedding.linear_block.norm_1.weight (108,)
+  new: embedding.linear_block.norm_2.bias (108,)
+  new: embedding.linear_block.norm_2.weight (108,)
+  new: fusion.pred_fusion_left (108,)
+  new: fusion.pred_fusion_right (108,)
+epoch=1/50 train_loss=1.741843 train_base=0.256573 val_base=0.284247 val_success=0/146 (0.000000) val_avg_ed=67.458904 seconds=12.55 BEST
+epoch=2/50 train_loss=1.657606 train_base=0.357817 val_base=0.427638 val_success=0/146 (0.000000) val_avg_ed=49.075342 seconds=9.70 BEST
+epoch=3/50 train_loss=1.441149 train_base=0.482074 val_base=0.539130 val_success=0/146 (0.000000) val_avg_ed=40.109589 seconds=9.70 BEST
+epoch=4/50 train_loss=1.226669 train_base=0.578459 val_base=0.602549 val_success=0/146 (0.000000) val_avg_ed=33.205479 seconds=8.81 BEST
+epoch=5/50 train_loss=1.084278 train_base=0.640951 val_base=0.669711 val_success=0/146 (0.000000) val_avg_ed=25.589041 seconds=8.85 BEST
+epoch=6/50 train_loss=0.972934 train_base=0.690565 val_base=0.692605 val_success=0/146 (0.000000) val_avg_ed=21.410959 seconds=9.02 BEST
+epoch=7/50 train_loss=0.902550 train_base=0.722507 val_base=0.728945 val_success=0/146 (0.000000) val_avg_ed=17.068493 seconds=9.07 BEST
+epoch=8/50 train_loss=0.865804 train_base=0.738307 val_base=0.738521 val_success=0/146 (0.000000) val_avg_ed=15.664384 seconds=9.00 BEST
+epoch=9/50 train_loss=0.830937 train_base=0.757229 val_base=0.753044 val_success=0/146 (0.000000) val_avg_ed=14.116438 seconds=9.03 BEST
+epoch=10/50 train_loss=0.791445 train_base=0.775052 val_base=0.747336 val_success=0/146 (0.000000) val_avg_ed=13.171233 seconds=9.15 BEST
+epoch=11/50 train_loss=0.764766 train_base=0.789225 val_base=0.761225 val_success=0/146 (0.000000) val_avg_ed=11.972603 seconds=9.00 BEST
+epoch=12/50 train_loss=0.761106 train_base=0.789968 val_base=0.745497 val_success=1/146 (0.006849) val_avg_ed=11.698630 seconds=9.02 BEST
+epoch=13/50 train_loss=0.748958 train_base=0.794139 val_base=0.758371 val_success=1/146 (0.006849) val_avg_ed=11.664384 seconds=9.03 BEST
+epoch=14/50 train_loss=0.706388 train_base=0.813764 val_base=0.794774 val_success=4/146 (0.027397) val_avg_ed=9.349315 seconds=9.14 BEST
+epoch=15/50 train_loss=0.667673 train_base=0.834273 val_base=0.816844 val_success=4/146 (0.027397) val_avg_ed=9.116438 seconds=9.20 BEST
+epoch=16/50 train_loss=0.634609 train_base=0.849253 val_base=0.823250 val_success=11/146 (0.075342) val_avg_ed=8.630137 seconds=9.18 BEST
+epoch=17/50 train_loss=0.633559 train_base=0.852239 val_base=0.819888 val_success=8/146 (0.054795) val_avg_ed=8.664384 seconds=9.22 
+epoch=18/50 train_loss=0.620551 train_base=0.857343 val_base=0.829782 val_success=12/146 (0.082192) val_avg_ed=7.876712 seconds=9.36 BEST
+epoch=19/50 train_loss=0.596436 train_base=0.865006 val_base=0.829084 val_success=14/146 (0.095890) val_avg_ed=7.787671 seconds=9.32 BEST
+epoch=20/50 train_loss=0.599343 train_base=0.864074 val_base=0.833397 val_success=8/146 (0.054795) val_avg_ed=7.568493 seconds=9.25 BEST
+epoch=21/50 train_loss=0.591431 train_base=0.866705 val_base=0.838217 val_success=10/146 (0.068493) val_avg_ed=7.136986 seconds=9.25 BEST
+epoch=22/50 train_loss=0.571666 train_base=0.874866 val_base=0.835299 val_success=10/146 (0.068493) val_avg_ed=7.602740 seconds=9.25 
+epoch=23/50 train_loss=0.579981 train_base=0.871366 val_base=0.829718 val_success=11/146 (0.075342) val_avg_ed=7.849315 seconds=9.35 
+epoch=24/50 train_loss=0.582821 train_base=0.869778 val_base=0.827118 val_success=13/146 (0.089041) val_avg_ed=8.273973 seconds=9.39 
+epoch=25/50 train_loss=0.562192 train_base=0.879179 val_base=0.839739 val_success=13/146 (0.089041) val_avg_ed=7.226027 seconds=9.46 
+epoch=26/50 train_loss=0.541984 train_base=0.887214 val_base=0.850647 val_success=17/146 (0.116438) val_avg_ed=7.308219 seconds=9.53 
+epoch=27/50 train_loss=0.527705 train_base=0.892120 val_base=0.846588 val_success=16/146 (0.109589) val_avg_ed=7.075342 seconds=9.55 BEST
+epoch=28/50 train_loss=0.518381 train_base=0.897872 val_base=0.838343 val_success=11/146 (0.075342) val_avg_ed=7.349315 seconds=9.46 
+epoch=29/50 train_loss=0.532563 train_base=0.891883 val_base=0.850393 val_success=17/146 (0.116438) val_avg_ed=6.897260 seconds=9.48 BEST
+epoch=30/50 train_loss=0.513403 train_base=0.898448 val_base=0.855657 val_success=16/146 (0.109589) val_avg_ed=6.828767 seconds=9.44 BEST
+epoch=31/50 train_loss=0.520482 train_base=0.895581 val_base=0.853881 val_success=16/146 (0.109589) val_avg_ed=7.253425 seconds=9.29 
+epoch=32/50 train_loss=0.526941 train_base=0.895912 val_base=0.849632 val_success=17/146 (0.116438) val_avg_ed=6.431507 seconds=9.69 BEST
+epoch=33/50 train_loss=0.506507 train_base=0.901411 val_base=0.852803 val_success=17/146 (0.116438) val_avg_ed=6.904110 seconds=9.30 
+epoch=34/50 train_loss=0.521518 train_base=0.896070 val_base=0.855847 val_success=10/146 (0.068493) val_avg_ed=6.863014 seconds=9.40 
+epoch=35/50 train_loss=0.521537 train_base=0.894403 val_base=0.848047 val_success=17/146 (0.116438) val_avg_ed=6.945205 seconds=9.44 
+epoch=36/50 train_loss=0.503921 train_base=0.905472 val_base=0.856989 val_success=17/146 (0.116438) val_avg_ed=6.602740 seconds=9.47 
+epoch=37/50 train_loss=0.487292 train_base=0.910062 val_base=0.854008 val_success=20/146 (0.136986) val_avg_ed=6.527397 seconds=9.51 
+epoch=38/50 train_loss=0.496487 train_base=0.906878 val_base=0.855340 val_success=15/146 (0.102740) val_avg_ed=6.500000 seconds=9.55 
+Early stopping at epoch 38
+========================================================================
+Best epoch: 32
+Training seconds: 437.85357102006674
+Peak training GPU memory MiB: 2831.6748046875
+{
+  "loss": 0.6475913932878677,
+  "clusters": 146,
+  "base_accuracy": 0.8540715372907154,
+  "success_count": 17,
+  "success_rate": 0.11643835616438356,
+  "total_edit_distance": 934,
+  "average_edit_distance": 6.397260273972603,
+  "seconds": 0.425790399312973,
+  "clusters_per_second": 342.8917144106017,
+  "best_epoch": 32,
+  "training_seconds": 437.85357102006674,
+  "peak_training_gpu_memory_mib": 2831.6748046875,
+  "peak_inference_gpu_memory_mib": 1548.7607421875,
+  "best_checkpoint": "/mnt/st_data/zhangzixin/bbs-test-master/tools/TReconLM/DeepLearningBaselines/DNAFormer/runs/dnaformer_ft_chandak_max16_seed2026_pilot/best_model.pth",
+  "predictions_file": "/mnt/st_data/zhangzixin/bbs-test-master/tools/TReconLM/DeepLearningBaselines/DNAFormer/runs/dnaformer_ft_chandak_max16_seed2026_pilot/test_predictions.txt",
+  "test_file": "/mnt/st_data/zhangzixin/bbs-test-master/tools/TReconLM/DeepLearningBaselines/DNAFormer/prepared_data_seed2026/chandak/val.txt"
+}
+DNAFORMER FINE-TUNING: SUCCESS
+	Command being timed: "env CUDA_VISIBLE_DEVICES=0 OMP_NUM_THREADS=8 PYTHONUNBUFFERED=1 PYTHONWARNINGS=ignore::UserWarning python -u dnaformer_finetune_custom.py --train prepared_data_seed2026/chandak/train.txt --val prepared_data_seed2026/chandak/val.txt --test prepared_data_seed2026/chandak/val.txt --checkpoint checkpoints_official/DNAFormer_siamese.pth --output_dir runs/dnaformer_ft_chandak_max16_seed2026_pilot --target_len 108 --input_len 132 --max_reads 16 --epochs 50 --batch_size 8 --accumulation_steps 8 --backbone_lr 1e-5 --new_layer_lr 1e-3 --weight_decay 0 --patience 6 --seed 2026 --num_workers 0"
+	User time (seconds): 2727.45
+	System time (seconds): 80.46
+	Percent of CPU this job got: 627%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:27.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6428560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 5
+	Minor (reclaiming a frame) page faults: 2194502
+	Voluntary context switches: 18163
+	Involuntary context switches: 263667
+	Swaps: 0
+	File system inputs: 3024
+	File system outputs: 19393728
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

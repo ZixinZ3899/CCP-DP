@@ -1,0 +1,46 @@
+{
+  "project_root": "../../..",
+  "executable": "build/baselines/bbs-target/release/bbs",
+  "time_executable": "/usr/bin/time",
+  "evaluator": "scripts/evaluate_answers_extended.py",
+  "samples_root": "data/generated/coverage_robustness",
+  "runs_root": "experiments/coverage_robustness/results/bbs",
+  "separator": "====",
+  "coverages": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "threads": 32,
+  "datasets": [
+    {
+      "name": "srinivas_110",
+      "label": "Srinivasavaradhan et al. (110 bp)",
+      "length": 110,
+      "clusters": "data/processed/srinivas_110/Clusters.txt",
+      "centers": "data/processed/srinivas_110/Centers.txt"
+    },
+    {
+      "name": "chandak_108",
+      "label": "Chandak et al. (108 bp)",
+      "length": 108,
+      "clusters": "data/processed/chandak_108/Clusters.txt",
+      "centers": "data/processed/chandak_108/Centers.txt"
+    },
+    {
+      "name": "chandak_150",
+      "label": "Chandak et al. (150 bp)",
+      "length": 150,
+      "clusters": "data/processed/chandak_150/Clusters.txt",
+      "centers": "data/processed/chandak_150/Centers.txt"
+    }
+  ]
+}

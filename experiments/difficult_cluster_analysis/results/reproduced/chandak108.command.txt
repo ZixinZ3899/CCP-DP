@@ -1,0 +1,1 @@
+/mnt/st_data/zhangzixin/CCP-DP/build/ccpdp -i /mnt/st_data/zhangzixin/bbs-test-master/clustered-nanopore-reads-dataset/bar_lev_chandak_bbs_benchmark/Chandak_et_al/Clusters.txt -l 108 -s ==== -o results/reproduced/v82/chandak108_final.txt --diag results/reproduced/v82/chandak108_diag.csv --guide-output results/reproduced/v82/chandak108_guides.txt --mode auto --jobs 32 

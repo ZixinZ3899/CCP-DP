@@ -1,0 +1,6 @@
+raw/
+processed/
+downloads/
+generated/
+*.tmp
+

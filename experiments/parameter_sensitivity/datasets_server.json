@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Srinivas-110",
+        "length": 110,
+        "clusters": "{repo_root}/data/processed/srinivas_110/Clusters.txt",
+        "centers": "{repo_root}/data/processed/srinivas_110/Centers.txt",
+        "separator": "==============================="
+    },
+    {
+        "name": "Chandak-108",
+        "length": 108,
+        "clusters": "{repo_root}/data/processed/chandak_108/Clusters.txt",
+        "centers": "{repo_root}/data/processed/chandak_108/Centers.txt",
+        "separator": "==============================="
+    },
+    {
+        "name": "Erlich-152",
+        "length": 152,
+        "clusters": "{repo_root}/data/processed/erlich_152/Clusters.txt",
+        "centers": "{repo_root}/data/processed/erlich_152/Centers.txt",
+        "separator": "==============================="
+    }
+]

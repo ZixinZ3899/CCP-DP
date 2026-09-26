@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "separator": "===============================",
+  "datasets": {
+    "srinivas_110": {
+      "display_name": "Srinivas 110 bp (non-empty CNR benchmark)",
+      "target_length": 110,
+      "num_clusters": 9984,
+      "role": "primary",
+      "reproduction_status": "fully_reproducible",
+      "clusters": "data/processed/srinivas_110/Clusters.txt",
+      "centers": "data/processed/srinivas_110/Centers.txt",
+      "clusters_sha256": "a2f3f819019c31d3c9d28ad89a3d056cd1346daaf157a175bbe8a55d043ad9b3",
+      "centers_sha256": "309d54d8fbb5b3c6796a5c9b9f6af33158ce278ae5983033e7ab029ab4b2822c",
+      "source": "https://github.com/microsoft/clustered-nanopore-reads-dataset",
+      "source_commit": "6938f44796185902a08381943c2895782886c5c3",
+      "citation_key": "Srinivasavaradhan2021TrellisBMA"
+    },
+    "chandak_108": {
+      "display_name": "Chandak 108 bp (perfect-clustering benchmark)",
+      "target_length": 108,
+      "num_clusters": 1466,
+      "role": "primary",
+      "reproduction_status": "downloadable_processed_benchmark",
+      "clusters": "data/processed/chandak_108/Clusters.txt",
+      "centers": "data/processed/chandak_108/Centers.txt",
+      "clusters_sha256": "3b7fc3ab0b535f4d2462d8dc167b6f8374de1736cd87acfbbd989a4b074a2d3c",
+      "centers_sha256": "040c40202bae1c460f77240facb7c8ee14d8f202a209cfd2381b43472fb5f8f6",
+      "source": "https://zenodo.org/records/16959565",
+      "original_source": "https://github.com/shubhamchandak94/nanopore_dna_storage_data",
+      "citation_key": "Chandak2020Nanopore"
+    },
+    "bar_lev_140": {
+      "display_name": "Bar-Lev 140 bp (10,000-cluster subsample)",
+      "target_length": 140,
+      "num_clusters": 10000,
+      "role": "primary",
+      "reproduction_status": "downloadable_subsampled_benchmark",
+      "clusters": "data/processed/bar_lev_140/Clusters.txt",
+      "centers": "data/processed/bar_lev_140/Centers.txt",
+      "clusters_sha256": "62aa4b2683f842fd12e029377123c50b26572c1ab605dbd6a40347b159411b6d",
+      "centers_sha256": "bdc2370a83443728200262e4ea9d8f6fe25bde55f9b31b2c2d429c0008bd3caa",
+      "source": "https://zenodo.org/records/16959565",
+      "original_source": "https://zenodo.org/records/13896773",
+      "citation_key": "BarLev2025Scalable"
+    },
+    "chandak_150": {
+      "display_name": "Chandak 150 bp (ref28 benchmark)",
+      "target_length": 150,
+      "num_clusters": 11710,
+      "role": "additional",
+      "reproduction_status": "manual_processed_benchmark",
+      "clusters": "data/processed/chandak_150/Clusters.txt",
+      "centers": "data/processed/chandak_150/Centers.txt",
+      "clusters_sha256": "cc253a715dbaf129b5a009f7d176e95eda1e4699cb54d5281d27901340203d94",
+      "centers_sha256": "977ee4b9e049427fc051ee35557c5dd64f6816b88bde5c7e7359a512abb8429d",
+      "source": "https://github.com/shubhamchandak94/LDPC_DNA_storage_data",
+      "code_source": "https://github.com/shubhamchandak94/LDPC_DNA_storage",
+      "citation_key": "Chandak2019LDPC"
+    },
+    "erlich_152": {
+      "display_name": "Erlich 152 bp (processed benchmark)",
+      "target_length": 152,
+      "num_clusters": 72000,
+      "role": "additional",
+      "reproduction_status": "manual_processed_benchmark",
+      "clusters": "data/processed/erlich_152/Clusters.txt",
+      "centers": "data/processed/erlich_152/Centers.txt",
+      "clusters_sha256": "2331a13a5f2e45c12c19d030d1639c86944c3485b8047a99d9215c56346d7dbd",
+      "centers_sha256": "3d940fafed7416d01363db56ba89cd6d73929126c9dfa4485ae757cd0853486d",
+      "source": "https://github.com/TeamErlich/dna-fountain",
+      "raw_accessions": ["PRJEB19305", "PRJEB19307"],
+      "citation_key": "Erlich2017DNAFountain"
+    },
+    "grass_117": {
+      "display_name": "Grass 117 bp payload benchmark",
+      "target_length": 117,
+      "num_clusters": 4982,
+      "role": "archived_additional",
+      "reproduction_status": "manual_processed_benchmark",
+      "clusters": "data/processed/grass_117/Clusters.txt",
+      "centers": "data/processed/grass_117/Centers.txt",
+      "clusters_sha256": "c15a23b9bf256cd2620e6a066ce3da5faefb2b40ddaba594bcb6181912ac96b8",
+      "centers_sha256": "69d1106f027bd7de649f6fb4ef294eb7caa92555f447a5d9f144c268ea7f1021",
+      "source": "https://doi.org/10.1002/anie.201411378",
+      "citation_key": "Grass2015Preservation"
+    }
+  }
+}
+

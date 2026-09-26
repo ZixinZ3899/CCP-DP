@@ -1,0 +1,3 @@
+dataset,parameter,parameter_value,plot_x,repeats,routing_policy,reuse,phase_load,cross_trust,cross_weight,local_weight,success_percent_mean,success_percent_sd,mean_ed_mean,mean_ed_sd,reconstruction_percent_mean,reconstruction_percent_sd,elapsed_seconds_mean,elapsed_seconds_sd,decoded_fraction_percent_mean,decoded_fraction_percent_sd,changed_clusters_mean,changed_clusters_sd
+Chandak-108,baseline,default,0.0,1,low-reuse-high-phase-dense,0.00701031,9.2306,1.0,0.5,0.4,86.0,0.0,0.34,0.0,99.68518518518519,0.0,0.548497,0.0,100.0,0.0,4.0,0.0
+Srinivas-110,baseline,default,0.0,1,shallow-dense-fallback,0.0418182,3.83675,0.0,0.0,0.4,95.0,0.0,0.12,0.0,99.89090909090909,0.0,0.226604,0.0,100.0,0.0,2.0,0.0

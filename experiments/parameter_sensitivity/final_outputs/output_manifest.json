@@ -1,0 +1,21 @@
+{
+  "input": "/mnt/st_data/zhangzixin/bbs-test-master/experiments/picture/ccpdp_parameter_sensitivity/summary_metrics_full.csv",
+  "datasets": [
+    "Srinivas-110",
+    "Chandak-108"
+  ],
+  "input_rows": 36,
+  "main_parameters": [
+    "coverage_threshold",
+    "cross_weight_scale",
+    "route_min_fraction"
+  ],
+  "supplement_parameters": [
+    "coverage_threshold",
+    "reuse_threshold",
+    "phase_thresholds",
+    "cross_weight_scale",
+    "route_min_fraction",
+    "phase_band"
+  ]
+}

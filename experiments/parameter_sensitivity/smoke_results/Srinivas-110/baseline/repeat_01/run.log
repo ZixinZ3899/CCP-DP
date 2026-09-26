@@ -1,0 +1,26 @@
+build: CCP-DP-v8.2-parameter-sensitivity-20260916
+clusters: 100
+mode: auto
+decode mode: one local guide solve + at most one gated structured decode
+unified graph: enabled
+preliminary phase load: 3.83675
+preliminary total error: 0.0558133
+graph-decoded clusters: 100/100
+unified-graph changes: 2/100
+cross-cluster reuse (distinct guides): 0.0418182
+cross calibration (trust,accepted): 0,no
+cross calibration gain (train,validation,se): 0.0288594,0.0260481,0.0257275
+cross calibration sample (guides,windows): 100,10200
+trellis weights (cross,local): 0,0.4
+trellis phase band: 6
+trellis context states: 4
+shallow dense fallback: yes
+routing policy: shallow-dense-fallback
+planned structured decoding: 100/100
+anomaly mixture (low,high,separation,high-count): 0,0,0,0
+route fraction override: -1
+sensitivity settings (coverage,reuse,phase-low,phase-high,cross-scale,route-min,route-max,anomaly-separation): 40,0.5,3,6,1,0.1,0.5,2
+calibration IDS (sub,ins,del): 0.020934,0.016396,0.018484
+written output: /mnt/st_data/zhangzixin/CCP-DP/experiments/parameter_sensitivity/smoke_results/Srinivas-110/baseline/repeat_01/result.txt
+written diag: /mnt/st_data/zhangzixin/CCP-DP/experiments/parameter_sensitivity/smoke_results/Srinivas-110/baseline/repeat_01/diag.csv
+elapsed seconds: 0.226604

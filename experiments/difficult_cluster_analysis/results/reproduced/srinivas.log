@@ -1,0 +1,25 @@
+build: CCP-DP-v8.2-adaptive-routing-20260916
+clusters: 9984
+mode: auto
+decode mode: one local guide solve + at most one gated structured decode
+unified graph: enabled
+preliminary phase load: 3.82907
+preliminary total error: 0.0558336
+graph-decoded clusters: 999/9984
+unified-graph changes: 704/9984
+cross-cluster reuse (distinct guides): 0.989565
+cross calibration (trust,accepted): 1,yes
+cross calibration gain (train,validation,se): 1.97375,1.96434,0.0067147
+cross calibration sample (guides,windows): 512,50688
+trellis weights (cross,local): 0.68,0
+trellis phase band: 6
+trellis context states: 8
+shallow dense fallback: no
+routing policy: adaptive-bimodal-anomaly
+planned structured decoding: 999/9984
+anomaly mixture (low,high,separation,high-count): 1.60789,4.22524,3.16948,727
+route fraction override: -1
+calibration IDS (sub,ins,del): 0.021024,0.015770,0.019040
+written output: results/reproduced/v82/srinivas_final.txt
+written diag: results/reproduced/v82/srinivas_diag.csv
+elapsed seconds: 2.00139

@@ -1,0 +1,49 @@
+{
+  "binary": "/mnt/st_data/zhangzixin/CCP-DP/build/ccpdp_sensitivity",
+  "source": "/mnt/st_data/zhangzixin/CCP-DP/experiments/parameter_sensitivity/main_ccpdp_v8_2_sensitivity.cpp",
+  "datasets": [
+    {
+      "name": "Srinivas-110",
+      "length": 110,
+      "clusters": "/mnt/st_data/zhangzixin/bbs-test-master/clustered-nanopore-reads-dataset/Clusters_no_empty.txt",
+      "centers": "/mnt/st_data/zhangzixin/bbs-test-master/clustered-nanopore-reads-dataset/Centers_no_empty.txt",
+      "separator": "==============================="
+    },
+    {
+      "name": "Chandak-108",
+      "length": 108,
+      "clusters": "/mnt/st_data/zhangzixin/bbs-test-master/clustered-nanopore-reads-dataset/bar_lev_chandak_bbs_benchmark/Chandak_et_al/Clusters.txt",
+      "centers": "/mnt/st_data/zhangzixin/bbs-test-master/clustered-nanopore-reads-dataset/bar_lev_chandak_bbs_benchmark/Chandak_et_al/Centers.txt",
+      "separator": "==============================="
+    }
+  ],
+  "jobs": 32,
+  "repeats": 1,
+  "limit": 100,
+  "defaults": {
+    "coverage_threshold": [
+      "40",
+      40.0
+    ],
+    "reuse_threshold": [
+      "0.50",
+      0.5
+    ],
+    "phase_thresholds": [
+      "3/6",
+      1.0
+    ],
+    "cross_weight_scale": [
+      "1.00",
+      1.0
+    ],
+    "route_min_fraction": [
+      "0.10",
+      0.1
+    ],
+    "phase_band": [
+      "auto (6 here)",
+      6.0
+    ]
+  }
+}

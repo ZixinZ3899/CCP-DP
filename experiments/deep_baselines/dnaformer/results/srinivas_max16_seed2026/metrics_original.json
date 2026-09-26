@@ -1,0 +1,18 @@
+{
+  "loss": 0.24054989553166772,
+  "clusters": 998,
+  "base_accuracy": 0.9888231007469485,
+  "success_count": 905,
+  "success_rate": 0.906813627254509,
+  "total_edit_distance": 327,
+  "average_edit_distance": 0.3276553106212425,
+  "seconds": 2.9427678547799587,
+  "clusters_per_second": 339.1365032001901,
+  "best_epoch": 30,
+  "training_seconds": 2422.119357313961,
+  "peak_training_gpu_memory_mib": 2847.44384765625,
+  "peak_inference_gpu_memory_mib": 1549.49951171875,
+  "best_checkpoint": "/mnt/st_data/zhangzixin/bbs-test-master/tools/TReconLM/DeepLearningBaselines/DNAFormer/runs/dnaformer_ft_srinivas_max16_seed2026_final/best_model.pth",
+  "predictions_file": "/mnt/st_data/zhangzixin/bbs-test-master/tools/TReconLM/DeepLearningBaselines/DNAFormer/runs/dnaformer_ft_srinivas_max16_seed2026_final/test_predictions.txt",
+  "test_file": "/mnt/st_data/zhangzixin/bbs-test-master/tools/TReconLM/DeepLearningBaselines/DNAFormer/prepared_data_seed2026/srinivas/test.txt"
+}

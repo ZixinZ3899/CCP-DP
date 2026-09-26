@@ -1,0 +1,37 @@
+{
+    "datasets": [
+        {
+            "name": "Srinivas-110",
+            "length": 110,
+            "separator": "===============================",
+            "clusters": [
+                "{repo_root}/data/processed/srinivas_110/Clusters.txt"
+            ],
+            "centers": [
+                "{repo_root}/data/processed/srinivas_110/Centers.txt"
+            ]
+        },
+        {
+            "name": "Chandak-108",
+            "length": 108,
+            "separator": "===============================",
+            "clusters": [
+                "{repo_root}/data/processed/chandak_108/Clusters.txt"
+            ],
+            "centers": [
+                "{repo_root}/data/processed/chandak_108/Centers.txt"
+            ]
+        },
+        {
+            "name": "Bar-Lev-140",
+            "length": 140,
+            "separator": "===============================",
+            "clusters": [
+                "{repo_root}/data/processed/bar_lev_140/Clusters.txt"
+            ],
+            "centers": [
+                "{repo_root}/data/processed/bar_lev_140/Centers.txt"
+            ]
+        }
+    ]
+}

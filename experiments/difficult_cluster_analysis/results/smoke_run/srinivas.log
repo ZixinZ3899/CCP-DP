@@ -1,0 +1,25 @@
+build: CCP-DP-v8.2-adaptive-routing-20260916
+clusters: 10
+mode: auto
+decode mode: one local guide solve + at most one gated structured decode
+unified graph: enabled
+preliminary phase load: 3.74603
+preliminary total error: 0.0556037
+graph-decoded clusters: 10/10
+unified-graph changes: 0/10
+cross-cluster reuse (distinct guides): 0
+cross calibration (trust,accepted): 0,no
+cross calibration gain (train,validation,se): 0,0,0
+cross calibration sample (guides,windows): 0,0
+trellis weights (cross,local): 0,0.4
+trellis phase band: 6
+trellis context states: 4
+shallow dense fallback: yes
+routing policy: shallow-dense-fallback
+planned structured decoding: 10/10
+anomaly mixture (low,high,separation,high-count): 0,0,0,0
+route fraction override: -1
+calibration IDS (sub,ins,del): 0.021549,0.016883,0.017172
+written output: results/smoke_run/srinivas_final.txt
+written diag: results/smoke_run/srinivas_diag.csv
+elapsed seconds: 0.159666

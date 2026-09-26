@@ -1,0 +1,12 @@
+
+/build/
+build/
+*.pt
+*.pth
+__pycache__/
+*.py[cod]
+.venv/
+*.zip
+results/smoke/
+data/generated/
+results/reproduced/

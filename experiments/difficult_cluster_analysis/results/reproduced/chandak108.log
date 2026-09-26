@@ -1,0 +1,25 @@
+build: CCP-DP-v8.2-adaptive-routing-20260916
+clusters: 1466
+mode: auto
+decode mode: one local guide solve + at most one gated structured decode
+unified graph: enabled
+preliminary phase load: 9.15961
+preliminary total error: 0.130999
+graph-decoded clusters: 1466/1466
+unified-graph changes: 170/1466
+cross-cluster reuse (distinct guides): 0.125983
+cross calibration (trust,accepted): 1,yes
+cross calibration gain (train,validation,se): 0.502647,0.500391,0.00908739
+cross calibration sample (guides,windows): 512,51200
+trellis weights (cross,local): 0.5,0.4
+trellis phase band: 6
+trellis context states: 8
+shallow dense fallback: no
+routing policy: low-reuse-high-phase-dense
+planned structured decoding: 1466/1466
+anomaly mixture (low,high,separation,high-count): 0,0,0,0
+route fraction override: -1
+calibration IDS (sub,ins,del): 0.046188,0.044964,0.039847
+written output: results/reproduced/v82/chandak108_final.txt
+written diag: results/reproduced/v82/chandak108_diag.csv
+elapsed seconds: 2.18052

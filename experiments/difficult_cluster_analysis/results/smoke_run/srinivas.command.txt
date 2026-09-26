@@ -1,0 +1,1 @@
+/mnt/st_data/zhangzixin/CCP-DP/build/ccpdp -i /mnt/st_data/zhangzixin/bbs-test-master/clustered-nanopore-reads-dataset/Clusters_no_empty.txt -l 110 -s =============================== -o results/smoke_run/srinivas_final.txt --diag results/smoke_run/srinivas_diag.csv --guide-output results/smoke_run/srinivas_guides.txt --mode auto --jobs 2 --limit 10 
